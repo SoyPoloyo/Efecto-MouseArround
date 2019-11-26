@@ -1,0 +1,38 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #c4c3ca;
+	background-color: rgb(247, 247, 247);
+	overflow-x: hidden;
+}
+.mause{
+	position: fixed;
+	border-radius: 50%;	
+	transform: translateX(-50%) translateY(-50%);
+	pointer-events: none;
+	left: -100px;
+	top: 50%
+}
+
+.mause{
+	height: 36px;
+	width: 36px;
+	z-index:99998;
+	-webkit-transition:all 0.3s ease-out;
+	transition:all 0.3s ease-out
+}
+
+.mause{
+	border: 2px solid #1f2029;
+	box-shadow: 0 0 10px rgba(41, 41, 51, 0.6);
+
+
+
+
+
+
+
+
+
